@@ -12,13 +12,13 @@ rancher_server_admin_password = ""
 add_windows_node = false
 
 # AWS region used for all resources
-aws_region = "eu-central-1"
+aws_region = "eu-central-1a"
 
 # AWS session token used to create AWS infrastructure
 aws_session_token = ""
 
 # AWS zone used for all resources
-aws_zone = "us-east-1b"
+aws_zone = "eu-central-1"
 
 # Version of cert-manager to install alongside Rancher (format: 0.0.0)
 cert_manager_version = "1.11.0"

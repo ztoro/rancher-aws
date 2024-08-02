@@ -29,7 +29,7 @@ variable "aws_region" {
 variable "aws_zone" {
   type        = string
   description = "AWS zone used for all resources"
-  default     = "us-east-1b"
+  default     = "eu-central-1a"
 }
 
 variable "prefix" {
