@@ -7,6 +7,7 @@ resource "ssh_resource" "install_k3s" {
   ]
   user        = var.node_username
   private_key = var.ssh_private_key_pem
+  timeout     = "10m"
 }
 
 resource "ssh_resource" "retrieve_config" {
